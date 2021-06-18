@@ -1,0 +1,236 @@
+OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.7.RELEASE)
+
+2021-05-09 16:40:29.866  INFO 8272 --- [           main] fr.iut.blankproject.BlankApplication     : Starting BlankApplication on LY0JLPF1B5ED7 with PID 8272 (C:\Users\fp13834\Documents\D\IUT\blank-project\blank-project\target\classes started by FP13834 in C:\Users\fp13834\Documents\D\IUT\blank-project\blank-project)
+2021-05-09 16:40:29.868  INFO 8272 --- [           main] fr.iut.blankproject.BlankApplication     : No active profile set, falling back to default profiles: default
+2021-05-09 16:40:30.409  INFO 8272 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-09 16:40:30.417 DEBUG 8272 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for MongoDB repositories in packages fr.iut.blankproject.
+2021-05-09 16:40:30.425 DEBUG 8272 --- [           main] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [C:\Users\fp13834\Documents\D\IUT\blank-project\blank-project\target\classes\fr\iut\blankproject\repository\EntityRepository.class]
+2021-05-09 16:40:30.451  INFO 8272 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 1 MongoDB repository interfaces.
+2021-05-09 16:40:30.790  INFO 8272 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-09 16:40:30.797  INFO 8272 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-09 16:40:30.798  INFO 8272 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-05-09 16:40:30.844  INFO 8272 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-09 16:40:30.844  INFO 8272 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 946 ms
+2021-05-09 16:40:30.956  INFO 8272 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[20.73.56.168:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-09 16:40:31.028 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Locale to class java.lang.String as writing converter.
+2021-05-09 16:40:31.028 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Character to class java.lang.String as writing converter.
+2021-05-09 16:40:31.029 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.math.BigDecimal to class java.lang.String as writing converter.
+2021-05-09 16:40:31.029 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.math.BigDecimal to class org.bson.types.Decimal128 as writing converter.
+2021-05-09 16:40:31.029 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.math.BigDecimal as reading converter.
+2021-05-09 16:40:31.030 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.types.Decimal128 to class java.math.BigDecimal as reading converter.
+2021-05-09 16:40:31.030 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.math.BigInteger to class java.lang.String as writing converter.
+2021-05-09 16:40:31.030 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.math.BigInteger as reading converter.
+2021-05-09 16:40:31.030 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.net.URL to class java.lang.String as writing converter.
+2021-05-09 16:40:31.030 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.net.URL as reading converter.
+2021-05-09 16:40:31.030 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class java.lang.String as reading converter.
+2021-05-09 16:40:31.031 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.query.Term to class java.lang.String as writing converter.
+2021-05-09 16:40:31.031 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.script.NamedMongoScript to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.031 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.script.NamedMongoScript as reading converter.
+2021-05-09 16:40:31.031 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Currency to class java.lang.String as writing converter.
+2021-05-09 16:40:31.031 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.util.Currency as reading converter.
+2021-05-09 16:40:31.031 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.concurrent.atomic.AtomicInteger to class java.lang.Integer as writing converter.
+2021-05-09 16:40:31.031 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.concurrent.atomic.AtomicLong to class java.lang.Long as writing converter.
+2021-05-09 16:40:31.031 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Long to class java.util.concurrent.atomic.AtomicLong as reading converter.
+2021-05-09 16:40:31.032 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Integer to class java.util.concurrent.atomic.AtomicInteger as reading converter.
+2021-05-09 16:40:31.032 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.types.Binary to class [B as reading converter.
+2021-05-09 16:40:31.032 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.BsonTimestamp to class java.time.Instant as reading converter.
+2021-05-09 16:40:31.032 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.net.URI to class java.lang.String as writing converter.
+2021-05-09 16:40:31.032 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.net.URI as reading converter.
+2021-05-09 16:40:31.032 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.geo.Box to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.032 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.geo.Polygon to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.033 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.geo.Circle to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.033 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.geo.Sphere to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.033 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.geo.Box as reading converter.
+2021-05-09 16:40:31.033 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.geo.Polygon as reading converter.
+2021-05-09 16:40:31.033 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.geo.Circle as reading converter.
+2021-05-09 16:40:31.033 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.Sphere as reading converter.
+2021-05-09 16:40:31.033 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.geo.Point as reading converter.
+2021-05-09 16:40:31.033 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.geo.Point to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.034 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.query.GeoCommand to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.034 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from interface org.springframework.data.mongodb.core.geo.GeoJson to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.034 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.geo.GeoJsonPoint to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.034 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.geo.GeoJsonPolygon to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.034 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonPoint as reading converter.
+2021-05-09 16:40:31.034 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonPolygon as reading converter.
+2021-05-09 16:40:31.034 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonLineString as reading converter.
+2021-05-09 16:40:31.034 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiLineString as reading converter.
+2021-05-09 16:40:31.035 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiPoint as reading converter.
+2021-05-09 16:40:31.035 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiPolygon as reading converter.
+2021-05-09 16:40:31.035 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonGeometryCollection as reading converter.
+2021-05-09 16:40:31.035 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to interface org.springframework.data.mongodb.core.geo.GeoJson as reading converter.
+2021-05-09 16:40:31.035 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+2021-05-09 16:40:31.035 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+2021-05-09 16:40:31.035 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+2021-05-09 16:40:31.035 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+2021-05-09 16:40:31.035 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+2021-05-09 16:40:31.036 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+2021-05-09 16:40:31.036 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+2021-05-09 16:40:31.036 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+2021-05-09 16:40:31.036 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Skipping converter from class java.time.LocalDateTime to class java.time.Instant as reading converter. class java.time.LocalDateTime is not a store supported simple type!
+2021-05-09 16:40:31.036 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Skipping converter from class java.time.Instant to class java.time.LocalDateTime as reading converter. class java.time.Instant is not a store supported simple type!
+2021-05-09 16:40:31.036 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+2021-05-09 16:40:31.037 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+2021-05-09 16:40:31.037 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+2021-05-09 16:40:31.037 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+2021-05-09 16:40:31.037 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class java.lang.String as writing converter.
+2021-05-09 16:40:31.037 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Period as reading converter.
+2021-05-09 16:40:31.037 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+2021-05-09 16:40:31.038 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+2021-05-09 16:40:31.038 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+2021-05-09 16:40:31.097  INFO 8272 --- [73.56.168:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:308}] to 20.73.56.168:27017
+2021-05-09 16:40:31.101 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Locale to class java.lang.String as writing converter.
+2021-05-09 16:40:31.101 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Character to class java.lang.String as writing converter.
+2021-05-09 16:40:31.101 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.math.BigDecimal to class java.lang.String as writing converter.
+2021-05-09 16:40:31.101 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.math.BigDecimal to class org.bson.types.Decimal128 as writing converter.
+2021-05-09 16:40:31.101 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.math.BigDecimal as reading converter.
+2021-05-09 16:40:31.101 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.types.Decimal128 to class java.math.BigDecimal as reading converter.
+2021-05-09 16:40:31.102 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.math.BigInteger to class java.lang.String as writing converter.
+2021-05-09 16:40:31.102 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.math.BigInteger as reading converter.
+2021-05-09 16:40:31.102 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.net.URL to class java.lang.String as writing converter.
+2021-05-09 16:40:31.102 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.net.URL as reading converter.
+2021-05-09 16:40:31.102 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class java.lang.String as reading converter.
+2021-05-09 16:40:31.102 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.query.Term to class java.lang.String as writing converter.
+2021-05-09 16:40:31.102 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.script.NamedMongoScript to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.102 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.script.NamedMongoScript as reading converter.
+2021-05-09 16:40:31.102 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Currency to class java.lang.String as writing converter.
+2021-05-09 16:40:31.102 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.util.Currency as reading converter.
+2021-05-09 16:40:31.103 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.concurrent.atomic.AtomicInteger to class java.lang.Integer as writing converter.
+2021-05-09 16:40:31.103 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.concurrent.atomic.AtomicLong to class java.lang.Long as writing converter.
+2021-05-09 16:40:31.103 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Long to class java.util.concurrent.atomic.AtomicLong as reading converter.
+2021-05-09 16:40:31.103 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Integer to class java.util.concurrent.atomic.AtomicInteger as reading converter.
+2021-05-09 16:40:31.103 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.types.Binary to class [B as reading converter.
+2021-05-09 16:40:31.103 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.BsonTimestamp to class java.time.Instant as reading converter.
+2021-05-09 16:40:31.103 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.net.URI to class java.lang.String as writing converter.
+2021-05-09 16:40:31.103 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.net.URI as reading converter.
+2021-05-09 16:40:31.104 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.geo.Box to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.104 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.geo.Polygon to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.104 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.geo.Circle to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.104 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.geo.Sphere to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.104 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.geo.Box as reading converter.
+2021-05-09 16:40:31.104 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.geo.Polygon as reading converter.
+2021-05-09 16:40:31.104 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.geo.Circle as reading converter.
+2021-05-09 16:40:31.104 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.Sphere as reading converter.
+2021-05-09 16:40:31.104 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.geo.Point as reading converter.
+2021-05-09 16:40:31.104 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.geo.Point to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.105 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.query.GeoCommand to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.105 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from interface org.springframework.data.mongodb.core.geo.GeoJson to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.105 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.geo.GeoJsonPoint to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.105 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.geo.GeoJsonPolygon to class org.bson.Document as writing converter.
+2021-05-09 16:40:31.105 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonPoint as reading converter.
+2021-05-09 16:40:31.105 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonPolygon as reading converter.
+2021-05-09 16:40:31.105 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonLineString as reading converter.
+2021-05-09 16:40:31.105 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiLineString as reading converter.
+2021-05-09 16:40:31.105 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiPoint as reading converter.
+2021-05-09 16:40:31.105 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiPolygon as reading converter.
+2021-05-09 16:40:31.106 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonGeometryCollection as reading converter.
+2021-05-09 16:40:31.106 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to interface org.springframework.data.mongodb.core.geo.GeoJson as reading converter.
+2021-05-09 16:40:31.106 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+2021-05-09 16:40:31.106 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+2021-05-09 16:40:31.106 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+2021-05-09 16:40:31.106 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+2021-05-09 16:40:31.106 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+2021-05-09 16:40:31.106 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+2021-05-09 16:40:31.106 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+2021-05-09 16:40:31.106 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+2021-05-09 16:40:31.107 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Skipping converter from class java.time.LocalDateTime to class java.time.Instant as reading converter. class java.time.LocalDateTime is not a store supported simple type!
+2021-05-09 16:40:31.107 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Skipping converter from class java.time.Instant to class java.time.LocalDateTime as reading converter. class java.time.Instant is not a store supported simple type!
+2021-05-09 16:40:31.107 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+2021-05-09 16:40:31.107 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+2021-05-09 16:40:31.107 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+2021-05-09 16:40:31.107 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+2021-05-09 16:40:31.107 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class java.lang.String as writing converter.
+2021-05-09 16:40:31.107 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Period as reading converter.
+2021-05-09 16:40:31.107 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+2021-05-09 16:40:31.107 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+2021-05-09 16:40:31.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+2021-05-09 16:40:31.119 DEBUG 8272 --- [           main] .m.c.i.MongoPersistentEntityIndexCreator : Analyzing class class fr.iut.blankproject.domain.Entity for index information.
+2021-05-09 16:40:31.144  INFO 8272 --- [           main] org.mongodb.driver.cluster               : Cluster description not yet available. Waiting for 30000 ms before timing out
+2021-05-09 16:40:31.155  INFO 8272 --- [73.56.168:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=20.73.56.168:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=57124800}
+2021-05-09 16:40:31.515  INFO 8272 --- [           main] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:309}] to 20.73.56.168:27017
+2021-05-09 16:40:31.690 DEBUG 8272 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for fr.iut.blankproject.repository.EntityRepository…
+2021-05-09 16:40:31.741 DEBUG 8272 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for fr.iut.blankproject.repository.EntityRepository.
+2021-05-09 16:40:32.001  INFO 8272 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-09 16:40:32.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Locale to class java.lang.String as writing converter.
+2021-05-09 16:40:32.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Character to class java.lang.String as writing converter.
+2021-05-09 16:40:32.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.math.BigDecimal to class java.lang.String as writing converter.
+2021-05-09 16:40:32.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.math.BigDecimal to class org.bson.types.Decimal128 as writing converter.
+2021-05-09 16:40:32.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.math.BigDecimal as reading converter.
+2021-05-09 16:40:32.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.types.Decimal128 to class java.math.BigDecimal as reading converter.
+2021-05-09 16:40:32.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.math.BigInteger to class java.lang.String as writing converter.
+2021-05-09 16:40:32.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.math.BigInteger as reading converter.
+2021-05-09 16:40:32.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.net.URL to class java.lang.String as writing converter.
+2021-05-09 16:40:32.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.net.URL as reading converter.
+2021-05-09 16:40:32.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class java.lang.String as reading converter.
+2021-05-09 16:40:32.108 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.query.Term to class java.lang.String as writing converter.
+2021-05-09 16:40:32.109 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.script.NamedMongoScript to class org.bson.Document as writing converter.
+2021-05-09 16:40:32.109 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.script.NamedMongoScript as reading converter.
+2021-05-09 16:40:32.109 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Currency to class java.lang.String as writing converter.
+2021-05-09 16:40:32.109 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.util.Currency as reading converter.
+2021-05-09 16:40:32.109 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.concurrent.atomic.AtomicInteger to class java.lang.Integer as writing converter.
+2021-05-09 16:40:32.109 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.concurrent.atomic.AtomicLong to class java.lang.Long as writing converter.
+2021-05-09 16:40:32.109 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Long to class java.util.concurrent.atomic.AtomicLong as reading converter.
+2021-05-09 16:40:32.109 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.Integer to class java.util.concurrent.atomic.AtomicInteger as reading converter.
+2021-05-09 16:40:32.109 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.types.Binary to class [B as reading converter.
+2021-05-09 16:40:32.109 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.BsonTimestamp to class java.time.Instant as reading converter.
+2021-05-09 16:40:32.109 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.net.URI to class java.lang.String as writing converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.net.URI as reading converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.geo.Box to class org.bson.Document as writing converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.geo.Polygon to class org.bson.Document as writing converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.geo.Circle to class org.bson.Document as writing converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.geo.Sphere to class org.bson.Document as writing converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.geo.Box as reading converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.geo.Polygon as reading converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.geo.Circle as reading converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.Sphere as reading converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.geo.Point as reading converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.geo.Point to class org.bson.Document as writing converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.query.GeoCommand to class org.bson.Document as writing converter.
+2021-05-09 16:40:32.110 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from interface org.springframework.data.mongodb.core.geo.GeoJson to class org.bson.Document as writing converter.
+2021-05-09 16:40:32.111 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.geo.GeoJsonPoint to class org.bson.Document as writing converter.
+2021-05-09 16:40:32.111 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.springframework.data.mongodb.core.geo.GeoJsonPolygon to class org.bson.Document as writing converter.
+2021-05-09 16:40:32.111 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonPoint as reading converter.
+2021-05-09 16:40:32.111 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonPolygon as reading converter.
+2021-05-09 16:40:32.111 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonLineString as reading converter.
+2021-05-09 16:40:32.111 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiLineString as reading converter.
+2021-05-09 16:40:32.111 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiPoint as reading converter.
+2021-05-09 16:40:32.111 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonMultiPolygon as reading converter.
+2021-05-09 16:40:32.111 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to class org.springframework.data.mongodb.core.geo.GeoJsonGeometryCollection as reading converter.
+2021-05-09 16:40:32.111 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class org.bson.Document to interface org.springframework.data.mongodb.core.geo.GeoJson as reading converter.
+2021-05-09 16:40:32.112 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+2021-05-09 16:40:32.112 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+2021-05-09 16:40:32.112 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+2021-05-09 16:40:32.112 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+2021-05-09 16:40:32.112 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+2021-05-09 16:40:32.112 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+2021-05-09 16:40:32.112 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+2021-05-09 16:40:32.112 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+2021-05-09 16:40:32.112 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Skipping converter from class java.time.LocalDateTime to class java.time.Instant as reading converter. class java.time.LocalDateTime is not a store supported simple type!
+2021-05-09 16:40:32.112 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Skipping converter from class java.time.Instant to class java.time.LocalDateTime as reading converter. class java.time.Instant is not a store supported simple type!
+2021-05-09 16:40:32.112 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+2021-05-09 16:40:32.112 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+2021-05-09 16:40:32.113 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+2021-05-09 16:40:32.113 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+2021-05-09 16:40:32.113 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.time.Period to class java.lang.String as writing converter.
+2021-05-09 16:40:32.113 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Period as reading converter.
+2021-05-09 16:40:32.113 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+2021-05-09 16:40:32.113 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+2021-05-09 16:40:32.113 DEBUG 8272 --- [           main] o.s.data.convert.CustomConversions       : Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+2021-05-09 16:40:32.142 DEBUG 8272 --- [           main] o.s.d.r.w.RepositoryRestHandlerAdapter   : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 0 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-09 16:40:32.151 DEBUG 8272 --- [           main] o.s.d.r.w.RepositoryRestHandlerMapping   : 27 mappings in <unknown>
+2021-05-09 16:40:32.152 DEBUG 8272 --- [           main] o.s.d.r.w.BasePathAwareHandlerMapping    : 5 mappings in <unknown>
+2021-05-09 16:40:32.202  INFO 8272 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-09 16:40:32.208  INFO 8272 --- [           main] fr.iut.blankproject.BlankApplication     : Started BlankApplication in 2.563 seconds (JVM running for 3.066)
+2021-05-09 16:40:32.209  INFO 8272 --- [           main] fr.iut.blankproject.BlankApplication     : Message=Application started
+2021-05-09 16:41:39.582  INFO 8272 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-09 16:41:39.582  INFO 8272 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-09 16:41:39.591  INFO 8272 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-05-09 16:41:39.622 DEBUG 8272 --- [nio-8080-exec-1] o.s.data.mongodb.core.MongoTemplate      : Remove using query: {} in collection: vos_noms_nom_collection.
+2021-05-09 16:41:39.715 DEBUG 8272 --- [nio-8080-exec-1] o.s.data.mongodb.core.MongoTemplate      : Inserting Document containing fields: [_class] in collection: vos_noms_nom_collection
