@@ -8,5 +8,10 @@ import java.util.List;
 
 public interface PartnersRepositoryCustom {
 
+    /**
+     * Récupère un partenaire selon son nom (avec son compte correspondant)
+     * @param name correspond au nom
+     * @return une liste de partenaires
+     */
     List<Partner> findAccountByName(String name);
 }

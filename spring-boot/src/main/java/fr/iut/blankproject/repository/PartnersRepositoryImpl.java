@@ -23,6 +23,11 @@ public class PartnersRepositoryImpl implements PartnersRepositoryCustom {
         this.mongoTemplate = mongoTemplate;
     }
 
+    /**
+     * Récupère un partenaire selon son nom (avec son compte correspondant)
+     * @param name correspond au nom
+     * @return une liste de partenaires
+     */
     @Override
     public List<Partner> findAccountByName(String name) {
         List<AggregationOperation> list = new ArrayList<>();

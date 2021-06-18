@@ -16,16 +16,30 @@ public class UsersController {
         this.repository = repository;
     }
 
+    /**
+     * Récupère tout les utilisateurs
+     * @return une liste d'utilisateurs
+     */
     @GetMapping("/users")
     public List<User> list() {
         return repository.findAll();
     }
 
+    /**
+     * Récupère un utilisateur selon son identifiant
+     * @param username correspond à l'identifiant
+     * @return une liste d'utilisateurs
+     */
     @GetMapping("/getUser")
     public List<User> listByUsername(@RequestParam(required = false) String username) {
         return repository.findByUsername(username);
     }
 
+    /**
+     * Créer un utilisateur
+     * @param entity correspond à l'utilisateur
+     * @return une liste d'utilisateurs
+     */
     @PostMapping("/user")
     public User insert(@RequestBody User entity) {
         if (entity == null) {
@@ -34,6 +48,12 @@ public class UsersController {
         return repository.save(entity);
     }
 
+    /**
+     * Met à jour un utilisateur selon son "_id"
+     * @param entity correspond à l'utilisateur
+     * @param id correspond à _id
+     * @return une liste d'utilisateurs
+     */
     @PutMapping("/userUpdate/{id}")
     public User update(@RequestBody User entity, @PathVariable String id) {
         if (entity == null) {
@@ -43,6 +63,11 @@ public class UsersController {
         return repository.save(entity);
     }
 
+    /**
+     * Supprimer un utilisateur selon son "_id"
+     * @param id correspond à _id
+     * @return une liste d'utilisateurs
+     */
     @DeleteMapping("/userDelete/{id}")
     public boolean delete(@PathVariable String id) {
         repository.deleteById(new ObjectId(id));

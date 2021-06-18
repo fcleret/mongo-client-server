@@ -8,7 +8,16 @@ import java.util.List;
 
 public interface ObjectsRepository extends MongoRepository<Object, ObjectId>, ObjectsRepositoryCustom {
 
+    /**
+     * Récupère tout les objets
+     * @return une liste d'objets
+     */
     List<Object> findAll();
 
+    /**
+     * Récupère un objet selon son nom
+     * @param name correspond au nom
+     * @return une liste d'objets
+     */
     List<Object> findByName(String name);
 }

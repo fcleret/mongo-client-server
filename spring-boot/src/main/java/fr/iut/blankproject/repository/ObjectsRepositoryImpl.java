@@ -24,6 +24,10 @@ public class ObjectsRepositoryImpl implements ObjectsRepositoryCustom {
         this.mongoTemplate = mongoTemplate;
     }
 
+    /**
+     * Récupère le dernier objet (selon la date de création)
+     * @return une liste d'objets
+     */
     @Override
     public List<Object> findLastAdded() {
         List<AggregationOperation> list = new ArrayList<>();
@@ -34,6 +38,10 @@ public class ObjectsRepositoryImpl implements ObjectsRepositoryCustom {
         return mongoTemplate.aggregate(agg, Object.class).getMappedResults();
     }
 
+    /**
+     * Récupère les groupes d'objets ayant la même couleur et donne leur nombre
+     * @return une liste d'objets groupé par couleur (uniquement couleur et nombre total)
+     */
     @Override
     public List<ObjectCount> countAll() {
         AggregationOperation group = Aggregation.group("color").count().as("count");
